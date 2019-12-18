@@ -58,7 +58,7 @@
             "Key": "15440bfa-0dbc-4ac6-a4c0-95f62b0c7b23",
             "Value": {
                 "id": "768ef614-2d4d-496b-9e04-8ddfc1c05633",
-                "resourcePath": "fonts\\headerFont\\headerFont.yy",
+                "resourcePath": "fonts\\font_header\\font_header.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "3cb16178-7678-44a8-b2aa-0291206b0153",
+            "Value": {
+                "id": "13261e23-5a40-45fc-96e0-2cbb38094992",
+                "resourcePath": "fonts\\font_return\\font_return.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "3d7b9273-9dab-4b10-9195-0bd957d7141a",
             "Value": {
                 "id": "3a48ac4e-d418-4f94-88eb-a99abcdbba2d",
@@ -108,6 +116,14 @@
                 "id": "8596d9e4-29ac-4ec6-b68c-f8c60bfe6532",
                 "resourcePath": "views\\42e06c2f-9d72-4b45-9e3a-92618f909964.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "43ea932e-f7c5-4d36-966b-3660b13807c8",
+            "Value": {
+                "id": "9c8c9ccb-7cb9-4837-b932-b71ea58224a5",
+                "resourcePath": "sprites\\spr_returnButton\\spr_returnButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -172,6 +188,14 @@
                 "id": "79e30f05-781c-4b45-8426-db9e9adfa2ef",
                 "resourcePath": "views\\98429aa3-8644-4633-be9c-555e8e4e64ff.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9a77c013-7c80-45be-b8bf-10238b496a59",
+            "Value": {
+                "id": "8b5a4e40-8bfb-425f-a6fb-c61408aa68fb",
+                "resourcePath": "sounds\\menuBeep\\menuBeep.yy",
+                "resourceType": "GMSound"
             }
         },
         {
