@@ -33,7 +33,8 @@ if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), x - (
 				}
 			} else if (room == connectRoom) { //If you are in the connectRoom, you are not hosting.
 				global.mp_port = real(inst_PORTBUTTON_2.typableText);	//Set the port accordingly
-				global.mp_ip = real(inst_IPBUTTON.typableText);
+				global.mp_ip = inst_IPBUTTON.typableText; //Set the IP as well
+				global.mp_isHost = false; //Not hosting; indicate this in connection
 				
 				room_goto(roomRedirect);
 			}

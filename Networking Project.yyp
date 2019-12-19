@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "c5ac3c68-9d83-424a-ac7c-1624bd5f8860",
+            "Value": {
+                "id": "a34bc8ee-08ce-4d94-916d-cd4ef05418ca",
+                "resourcePath": "rooms\\exitRoom\\exitRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "d41255ea-7fa0-4522-a6c0-ef687082f8a8",
