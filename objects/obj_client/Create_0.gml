@@ -14,6 +14,7 @@ network_set_config(network_config_connect_timeout, 4000); //If the client is una
 server = network_connect(client_socket, ip, port);
 
 if (server < 0) {
+	//Connection error: Handle accordingly
 	if (global.mp_isHost == false) { //If you're a client, return to the client connection room and create the error.
 		
 		textDrawer = instance_create_depth(512, 130, -5000, obj_textDrawer);
@@ -30,5 +31,6 @@ if (server < 0) {
 		show_error("Client unable to connect to server (local host). IP is " + ip + ", and port is " + string(port), true);
 	}
 } else {
+	//No connection error! Get the client set up.
     show_debug_message("Client connected to server!");
 }

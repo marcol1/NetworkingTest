@@ -21,5 +21,7 @@ if (server_socket < 0) { //Check that the server is successfully established
 	room_goto(hostRoom); 
 	
 } else {
-	alarm[0] = 2; //Create the client after 2 steps
+	clientsMap = ds_map_create(); //A map of the client's socket. This will be mapped to something else later.
+	
+	alarm[0] = 2; //Create the local client after 2 steps
 }
