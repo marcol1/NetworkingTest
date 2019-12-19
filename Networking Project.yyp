@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "471a01d7-24ac-420d-882b-19995f279e09",
+            "Value": {
+                "id": "28d0aa72-5d97-49a1-b282-0f03c5515eee",
+                "resourcePath": "objects\\obj_textDrawer\\obj_textDrawer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4f0c27b0-d70d-4bcc-aaea-e3bf8a26854e",
             "Value": {
                 "id": "8c97b1ca-aa10-4868-8f30-f61573e9a9a1",
@@ -210,7 +218,7 @@
             "Key": "84326ff0-fb71-4407-9b83-0e191d598ce4",
             "Value": {
                 "id": "179bff62-eaa5-4327-8048-4f5a462f456e",
-                "resourcePath": "rooms\\gameRoom\\gameRoom.yy",
+                "resourcePath": "rooms\\onlineRoom\\onlineRoom.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -251,6 +259,14 @@
             "Value": {
                 "id": "bcd333d2-3590-4e1d-a815-164821b17a9b",
                 "resourcePath": "objects\\obj_header\\obj_header.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a8dc84b1-0965-436b-ac6b-ca3226224ce8",
+            "Value": {
+                "id": "319639b1-beae-419f-9f32-3540129141c7",
+                "resourcePath": "objects\\obj_initialVariableSetter\\obj_initialVariableSetter.yy",
                 "resourceType": "GMObject"
             }
         },

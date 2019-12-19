@@ -1,4 +1,5 @@
 text = "Port";
+
 textYOffset = -1 * (sprite_get_height(sprite)/2);
 
 typableText = "";

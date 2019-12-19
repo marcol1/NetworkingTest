@@ -1,3 +1,3 @@
 text = "Initiate Server";
-roomRedirect = gameRoom;
+roomRedirect = onlineRoom;
 textYOffset = -1 * (sprite_get_height(sprite)/4);

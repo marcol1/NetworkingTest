@@ -1,8 +1,8 @@
 
 {
-    "name": "gameRoom",
+    "name": "onlineRoom",
     "id": "84326ff0-fb71-4407-9b83-0e191d598ce4",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

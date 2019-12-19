@@ -2,7 +2,6 @@
 
 if (selected == true) { //Only do this if its selected
 	var key = keyboard_key;
-	show_debug_message(string(key));
 	if (key >= 48) and (key <= 57) { //Only allow numbers to be typed
 		if (string_length(typableText) < characterLimit) {
 			typableText += chr(key);
